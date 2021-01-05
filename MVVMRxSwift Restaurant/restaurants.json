@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Blue Legume",
+        "cuisine": "european"
+    },
+    {
+        "name": "Fig & Olive",
+        "cuisine": "european"
+    },
+    {
+        "name": "Le Mercury",
+        "cuisine": "french"
+    },
+    {
+        "name": "Dishoom",
+        "cuisine": "indian"
+    },
+    {
+        "name": "The Grand Brasserie",
+        "cuisine": "indian"
+    },
+    {
+        "name": "Wacha",
+        "cuisine": "mexican"
+    },
+    {
+        "name": "The Islington",
+        "cuisine": "english"
+    },
+    {
+        "name": "Cyka Blyat",
+        "cuisine": "russian"
+    },
+    {
+        "name": "SACO World",
+        "cuisine": "arabian"
+    },
+    {
+        "name": "McDonalds",
+        "cuisine": "american"
+    },
+]
