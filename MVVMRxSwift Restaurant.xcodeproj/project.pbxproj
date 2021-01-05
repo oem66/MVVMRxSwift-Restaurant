@@ -54,6 +54,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17660BF125A4C26F00E4F777 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				17660BDD25A49A0800E4F777 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		17660BF225A4C27D00E4F777 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				17660BEB25A4AA8800E4F777 /* RestaurantsListViewModel.swift */,
+				17660BEE25A4AC8200E4F777 /* RestaurantViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		17660BF325A4C28E00E4F777 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				17660BE825A4A0F900E4F777 /* RestaurantService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		17660BF425A4C29A00E4F777 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17660BE525A4A01A00E4F777 /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17660BF525A4C2B100E4F777 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17E28C7225A4981200D890F9 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		17E28C6225A4981200D890F9 = {
 			isa = PBXGroup;
 			children = (
@@ -75,19 +116,18 @@
 		17E28C6D25A4981200D890F9 /* MVVMRxSwift Restaurant */ = {
 			isa = PBXGroup;
 			children = (
+				17660BF325A4C28E00E4F777 /* Service */,
+				17660BF425A4C29A00E4F777 /* Model */,
+				17660BF525A4C2B100E4F777 /* View */,
+				17660BF225A4C27D00E4F777 /* View Model */,
+				17660BF125A4C26F00E4F777 /* Coordinator */,
 				17E28C6E25A4981200D890F9 /* AppDelegate.swift */,
 				17E28C7025A4981200D890F9 /* SceneDelegate.swift */,
-				17E28C7225A4981200D890F9 /* ViewController.swift */,
 				17E28C7425A4981200D890F9 /* Main.storyboard */,
 				17E28C7725A4981600D890F9 /* Assets.xcassets */,
 				17E28C7925A4981600D890F9 /* LaunchScreen.storyboard */,
 				17E28C7C25A4981700D890F9 /* Info.plist */,
-				17660BDD25A49A0800E4F777 /* AppCoordinator.swift */,
 				17660BE125A49E6200E4F777 /* restaurants.json */,
-				17660BE525A4A01A00E4F777 /* Restaurant.swift */,
-				17660BE825A4A0F900E4F777 /* RestaurantService.swift */,
-				17660BEB25A4AA8800E4F777 /* RestaurantsListViewModel.swift */,
-				17660BEE25A4AC8200E4F777 /* RestaurantViewModel.swift */,
 			);
 			path = "MVVMRxSwift Restaurant";
 			sourceTree = "<group>";
